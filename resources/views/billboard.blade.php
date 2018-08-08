@@ -19,7 +19,15 @@
 
     </div>
 
-  </div>   
+  </div>  
+
+      <div class="navbar-right section_do do_ticket">
+      <a href="#">
+        <div>
+          <button class="do_partner text_do">RESERVAR</button>
+        </div>
+      </a>
+    </div> 
 
   <div class="row">
 

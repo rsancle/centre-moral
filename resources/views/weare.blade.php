@@ -62,6 +62,7 @@
             <div class="col-lg-6">
 
               <div class="section_1_teatre_text">
+                <h4><b>Història del Centre, més de cent anys</b></h4>
                 El Centre Moral i Cultural del Poblenou, el Centre, és una associació que es va crear en aquest popular barri barceloní l’any 1910 i des d’aleshores ha dut a terme una tasca ininterrompuda en els camps social, educatiu, cultural, esportiu i d’esbarjo, mantenint les nostres tradicions i afavorint la relació entre veïns.
 
                 En temps difícils per al nostre poble, el Centre ha fet possible que la torxa de la cultura catalana no s’hagi apagat mai del tot al nostre barri.
@@ -115,14 +116,12 @@
           <div class="col-lg-6">
 
             <div class="section_1_teatre_text">
-              <h4><b>Història del Centre, més de cent anys</b></h4>
-              El Centre Moral i Cultural del Poblenou, “el Centre”, és una associació que es va crear en aquest popular barri barceloní el 1910 i que des d’aleshores ha dut aterme una tasca ininterrompuda, fins i tot en els moments difícils viscuts pel nostre país, en els camps educatiu, cultural, esportiu i d’esbarjo.
-
-              També organitzava activitats recreatives com teatre, un grup de caramelles, jocs infantils...
+              
+              Més de 100 anys de vida al barri i un present molt engrescador ens permeten assegurar un bon futur per a la nostra entitat. Més de 1.000 socis i un munt de col·laboradors fan possible aquesta realitat que és el Centre, un ambient on es pot fer i/o gaudir de representacions i lectures teatrals, cant coral, concerts de música clàssica i moderna, sardanes, tertúlies literàries, excursions, xerrades i col·loquis, campionats de dòmino, arts manuals, dibuix, pintura, patchwork, puntes al coixí, reunions de Vida Creixent…
 
               <br>
 
-              <a class="button_activity border_ac center" href="">Llegir més...</a>
+              <a class="button_activity border_ac center" target="_blank" href="/images/weare/cent_anys_historia.pdf">Llegir més...</a>
 
             </div>
 
@@ -177,60 +176,7 @@
 
       <div class="row">
 
-        <div class="col-lg-12">
-
-            <div class="col-lg-6">
-              <div class="section_1_teatre_img" style="background-image: url('/images/teatre.jpg')">
-              </div>
-            </div>
-
-            <div class="col-lg-1">
-            </div>
-
-            <div class="col-lg-6">
-
-              <div class="section_1_teatre_text">
-                El Centre Moral i Cultural del Poblenou, el Centre, és una associació que es va crear en aquest popular barri barceloní l’any 1910 i des d’aleshores ha dut a terme una tasca ininterrompuda en els camps social, educatiu, cultural, esportiu i d’esbarjo, mantenint les nostres tradicions i afavorint la relació entre veïns.
-
-                En temps difícils per al nostre poble, el Centre ha fet possible que la torxa de la cultura catalana no s’hagi apagat mai del tot al nostre barri.
-
-                Més de 100 anys de vida, més de 1.000 socis i un munt de col·laboradors fan possible un present molt engrescador que ens permet assegurar un bon futur per a l’Entitat.
-              </div>
-            </div>
-
-          </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-12">
-
-          <div class="col-lg-6">
-            
-            <div class="section_1_teatre_text">
-              La nostra trajectòria ha rebut el reconeixement de diverses institucions públiques i privades. L’any 1975 la regidoria del districte ens va atorgar el Premi Sant Martí. El 2010, amb motiu de la celebració del Centenari de l’entitat, ens va ser lliurada la Medalla d’Or al Mèrit Cívic de l’Ajuntament de Barcelona, el 2013 la Generalitat de Catalunya ens distingia amb la Creu de Sant Jordi, i el 2016 la SGAE concedia a la nostra Secció de Teatre el Premi Max al Teatre Aficionat.
-            </div>
-
-          </div>
-
-          <div class="col-lg-1">
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="section_2_teatre_img" style="background-image: url('/images/award.jpg')">
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-12">
+        <div class="col-lg-12 margin_10">
 
           <div class="col-lg-6">
             <div class="section_1_teatre_img" style="background-image: url('/images/teatre.jpg')">
@@ -243,14 +189,44 @@
           <div class="col-lg-6">
 
             <div class="section_1_teatre_text">
-              <h4><b>Història del Centre, més de cent anys</b></h4>
-              El Centre Moral i Cultural del Poblenou, “el Centre”, és una associació que es va crear en aquest popular barri barceloní el 1910 i que des d’aleshores ha dut aterme una tasca ininterrompuda, fins i tot en els moments difícils viscuts pel nostre país, en els camps educatiu, cultural, esportiu i d’esbarjo.
 
-              També organitzava activitats recreatives com teatre, un grup de caramelles, jocs infantils...
+              <h4><b>Història del Cor</b></h4>
+              El Cor Poblenou és el resultat d’un llarg camí iniciat l’any 1991 quan uns vint-i-cinc actors de la Secció de Teatre del Centre van decidir, entusiasmats, fer de cor en el muntatge de l’opereta El Mikado. Després van venir l’òpera-rock Jesucrist Superstari el recital Això és Broadway! L’any 1995 presenta el muntatge Màrtir de la pau (evocació de Martin Luther King) i participa en una gala operística feta al Centre amb solistes i orquestra...
 
               <br>
 
-              <a class="button_activity border_ac center" href="">Llegir més...</a>
+              <a class="button_activity border_ac center" target="_blank" href="/images/weare/historia_del_cor.pdf">Llegir més...</a>
+
+            </div>
+
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12 margin_10">
+
+          <div class="col-lg-6">
+            <div class="section_1_teatre_img" style="background-image: url('/images/teatre.jpg')">
+            </div>
+          </div>
+
+          <div class="col-lg-1">
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="section_1_teatre_text">
+
+              <h4><b>Antecedents del Cor</b></h4>
+              La presència de la música al Centre és tan antiga com la mateixa entitat ja que des dels seus inicis es representa l’espectacle nadalenc L’Estel de Natzaret que, com tots sabem, conté un bon nombre de pàgines musicals. I encara, fent un salt en el temps de quaranta anys, ens trobem que la primera actuació feta en el Centre reconstruït després de la guerra és un concert de l’Orfeó Virolai que va tenir lloc el dia...
+
+              <br>
+
+              <a class="button_activity border_ac center" target="_blank" href="/images/weare/antecedents_del_cor.pdf">Llegir més...</a>
 
             </div>
 
@@ -283,10 +259,15 @@
           <div class="col-lg-6">
 
             <div class="section_1_teatre_text">
+
               <h4><b>Història de l’Esbart</b></h4>
               Quan el 1989 es va fer l’homenatge a Francesc de B. Comes, que va ser director de l’Esbart Montseny en una de les èpoques de més esplendor de la secció, a uns quants antics dansaires els va picar el cuquer de tornar a ballar aquelles danses que havien portat arreu de Catalunya, i també a fora, durant tants anys.
 
               La il·lusió es va començar a materialitzar el 1990, quan es va constituir la Secció d’Antics...
+
+              <br>
+
+              <a class="button_activity border_ac center" target="_blank" href="/images/weare/historia_de_esbart.pdf">Llegir més...</a>
 
             </div>
 
@@ -298,7 +279,7 @@
 
       <div class="row">
 
-        <div class="col-lg-12">
+        <div class="col-lg-12 margin_10">
 
           <div class="col-lg-6">
             <div class="section_1_teatre_img" style="background-image: url('/images/teatre.jpg')">
@@ -312,13 +293,12 @@
 
             <div class="section_1_teatre_text">
 
-              Quan el 1989 es va fer l’homenatge a Francesc de B. Comes, que va ser director de l’Esbart Montseny en una de les èpoques de més esplendor de la secció, a uns quants antics dansaires els va picar el cuquer de tornar a ballar aquelles danses que havien portat arreu de Catalunya, i també a fora, durant tants anys.
-
-              La il·lusió es va començar a materialitzar el 1990, quan es va constituir la Secció d’Antics...
+              <h4><b>Inicis de l’Esbart Montseny</b></h4>
+              “El Montseny era exactament el mateix que l’Esbart Santa Maria”, afirmava Jaume Masjuan; un pur canvi de nom obligat per qüestions governatives degudes als temps que corrien. Al traslladar-se al local del carrer Pujades, i amb la necessitat de constituir-se en societat amb tots els permisos pertinents, a l’hora d’intentar registrar el nom d’Esbart Santa Maria el funcionari de torn els va dir: “No se puede aceptar el nombre de Santa Maria...
 
               <br>
 
-              <a class="button_activity border_ac center" href="">Llegir més...</a>
+              <a class="button_activity border_ac center" target="_blank" href="/images/weare/inicis_de_esbart_montseny.pdf">Llegir més...</a>
 
             </div>
 

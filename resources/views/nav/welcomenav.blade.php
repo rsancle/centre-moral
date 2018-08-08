@@ -22,28 +22,20 @@
 
   @if ($navbar == 1)
 
-    <div class="navbar-right section_do do_ticket">
+    <div class="navbar-right" style="margin-left: 15px;">
       <a href="#">
-        <div class="text_do">
-          RESERVAR
-        </div>
-      </a>
-    </div>
-
-    <div class="navbar-right section_do do_partner" style="margin-left: 15px;">
-      <a href="#">
-        <div class="text_do">
-          FER-ME SOCI
+        <div>
+          <button class="do_partner text_do">FER-ME SOCI</button>
         </div>
       </a>
     </div>
 
     @else
 
-    <div class="navbar-right section_do do_partner" style="margin-left: 15px;">
+    <div class="navbar-right" style="margin-left: 15px;">
       <a href="{{route('home')}}">
-        <div class="text_do">
-          TORNAR
+        <div>
+          <button class="do_partner text_do">TORNAR</button>
         </div>
       </a>
     </div>

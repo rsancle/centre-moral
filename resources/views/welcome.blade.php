@@ -54,7 +54,16 @@
                       <h5 class="text_slider">{{$slider->text}}</h5>
                     </div>
                     <div class="div_space_slider">
-                      <p><a class="button_link_slider center" href="{{$slider->link}}">Veure informació</a></p>
+                      <p>
+                        @if ($slider->reserved == 1)
+                        <span>
+                          <a class="button_link_slider_reserved center" href="{{$slider->link}}">Reserva aquí ara</a>
+                        </span>
+                        @endif
+                        <span>
+                          <a class="button_link_slider center" href="{{$slider->link}}">Veure informació</a>
+                        </span>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -238,32 +247,31 @@
  
         <div class="col-lg-4" style="padding-left:0px">
 
-          <div class="row">
+          <div class="row box_social">
 
-            <div class="col-lg-12" class="hola" style="padding-left:0px">
-              <div class="fb-page" 
-              data-tabs="timeline,events,messages"
-              data-href="https://www.facebook.com/ElCentreCMC"
-          
-              data-hide-cover="false">
+            <div class="col-lg-12" style="padding-left:0px;padding-right: 0px;">
+              <div class="fb-page" data-href="https://www.facebook.com/ElCentreCMC" data-tabs="timeline, events" data-small-header="true" data-height="400" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ElCentreCMC" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ElCentreCMC">Facebook</a></blockquote>
               </div>
             </div>
           </div>
 
-          <div class="row">
+          <div class="row box_social">
 
-            <div class="col-lg-12" class="hola" style="padding-left:0px">
-              <a class="twitter-timeline" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="col-lg-12" style="padding-left:0px; padding-right: 0px;">
+              <a class="twitter-timeline" data-height="400" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+          </div>
+
+          <div class="row box_social">
+
+            <div class="col-lg-12" style="padding-left:0px; padding-right: 0px;">
+              <a class="twitter-timeline" data-height="240" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
           </div>
 
         </div>
-
-
-  
-
-            
-        
-
 
       </div>
 
@@ -296,7 +304,8 @@
   </div>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function(d, s, id) 
+{
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;

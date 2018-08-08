@@ -42,14 +42,13 @@
 
 .logo_ini
 {
-    height: 60px!important;
+    height: 50px!important;
 }
 
 .navbar-right
 {
     max-width: 50%!important;
     margin-right: 0px!important;
-    padding: 0px 25px 10px 25px!important;
 }
 
 .text_do
@@ -57,11 +56,16 @@
     color:white!important;
 }
 
+.navbar-brand
+{
+    padding: 5px 15px!important;
+}
+
 .do_partner
 {
     background: #51b5cc;
     color:white!important;
-    height: 100%;
+    border: 0px;
     font-size: 16px;
     font-family: FuturaLT;
 }
@@ -77,8 +81,8 @@
 
 #menu
 {
-    height: 90px;
-    line-height: 91px;
+    height: 60px;
+    line-height: 58px;
     padding: 0px 0px 0px 0px;
     border: 0px;
 }
@@ -603,7 +607,7 @@ h1
 
 .section_1_teatre_img
 {
-    height: 270px;
+    height: 300px;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -612,7 +616,7 @@ h1
 
 .section_1_teatre_img2
 {
-    height: 180px;
+    height: 200px;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -731,7 +735,7 @@ h1
 
 .contact_section_text
 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     text-align: center;
     font-family: "FuturaLT";
@@ -741,9 +745,9 @@ h1
 .contact_section_text_2
 {
     font-size: 12px;
-    font-weight: 600;
     text-align: center;
-    color: #3c3d41;
+    color: #505050;
+    font-family: "FuturaLT";
 }
 
 .line
@@ -773,6 +777,22 @@ h1
 {
     font-size: 14px;
     background: #281e67;
+    color: #fff;
+    font-family: "FuturaLT";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 22px 0 25px;
+    border: 0;
+    line-height: 51px;
+    height: 51px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button_link_slider_reserved
+{
+    font-size: 14px;
+    background: #51b5cc;
     color: #fff;
     font-family: "FuturaLT";
     font-size: 18px;
@@ -839,4 +859,30 @@ h1
 .title_section
 {
     padding: 0px 15px 15px 15px;
+}
+
+.box_social
+{
+    margin-bottom: 20px;
+    border:2px solid white;
+}
+
+.carousel-indicators .active 
+{
+    background-color: #fff!important;
+}
+
+.carousel-indicators li 
+{
+    position: relative!important;
+    -webkit-box-flex: 0!important;
+    -ms-flex: 0 1 auto!important;
+    flex: 0 1 auto!important;
+    width: 30px!important;
+    height: 3px!important;
+    margin-right: 3px!important;
+    margin-left: 3px!important;
+    text-indent: -999px!important;
+    background-color: rgba(255,255,255,.5)!important;
+    border: 0px solid rgba(255,255,255,.5)!important;
 }
