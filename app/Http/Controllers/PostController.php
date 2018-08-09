@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Post;
+use App\Config;
 use App\Panel;
 use App\Social;
 
@@ -12,7 +12,7 @@ class PostController extends Controller
     public function show($id)
 	{		
 
-		$post = Post::find($id);
+		$post = Config::find($id);
 
 		$navbar = 0;
 		$panel = Panel::all();

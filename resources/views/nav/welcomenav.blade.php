@@ -7,16 +7,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="{{route('weare')}}">EL CENTRE</a>
+        <a class="nav-link" href="{{route('weare')}}" alt="EL CENTRE">EL CENTRE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('activities')}}">CURSOS I TALLERS</a>
+        <a class="nav-link" href="{{route('activities')}}" alt="CURSOS I TALLERS">CURSOS I TALLERS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">GALERIA</a>
+        <a class="nav-link" href="#" alt="GALERIA">GALERIA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{route('butlleti')}}">BUTLLETI</a>
+        <a class="nav-link" href="{{route('butlleti')}}" alt="BUTLLETI">BUTLLETI</a>
       </li>
   </div>
 

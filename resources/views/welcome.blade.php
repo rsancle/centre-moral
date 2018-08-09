@@ -15,23 +15,23 @@
           <ol class="carousel-indicators">
 
             @php
-              $hola = 0;
+              $active = 0;
             @endphp
 
             @foreach ($sliders as $slider)
 
-              @if ($hola == 0)
+              @if ($active == 0)
 
-                <li data-target="#myCarousel" data-slide-to="{{$hola}}" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="{{$active}}" class="active"></li>
                 @php
-                  $hola++;
+                  $active++;
                 @endphp
 
               @else
 
-                <li data-target="#myCarousel" data-slide-to="{{$hola}}"></li>
+                <li data-target="#myCarousel" data-slide-to="{{$active}}"></li>
                 @php
-                  $hola++;
+                  $active++;
                 @endphp
 
               @endif
@@ -57,11 +57,11 @@
                       <p>
                         @if ($slider->reserved == 1)
                         <span>
-                          <a class="button_link_slider_reserved center" href="{{$slider->link}}">Reserva aquí ara</a>
+                          <a class="button_link_slider_reserved center" href="{{$slider->link2}}">Reserva aquí ara</a>
                         </span>
                         @endif
                         <span>
-                          <a class="button_link_slider center" href="{{$slider->link}}">Veure informació</a>
+                          <a class="button_link_slider center" href="{{$slider->link1}}">Veure informació</a>
                         </span>
                       </p>
                     </div>
@@ -78,7 +78,16 @@
                       <h5 class="text_slider">{{$slider->text}}</h5>
                     </div>
                     <div class="div_space_slider">
-                      <p><a class="button_link_slider center" href="{{$slider->link}}">Veure informació</a></p>
+                      <p>
+                        @if ($slider->reserved == 1)
+                        <span>
+                          <a class="button_link_slider_reserved center" href="{{$slider->link2}}">Reserva aquí ara</a>
+                        </span>
+                        @endif
+                        <span>
+                          <a class="button_link_slider center" href="{{$slider->link1}}">Veure informació</a>
+                        </span>
+                      </p>
                     </div>
                   </div>
                 </div>  

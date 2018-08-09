@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Panel extends Model
+class Config extends Model
 {
-    protected $table = "panel";
+    protected $table = "config";
 }

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateJuntaTable extends Migration
+class CreateConfigTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateJuntaTable extends Migration
      */
     public function up()
     {
-        Schema::create('junta', function (Blueprint $table) {
+        Schema::create('config', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('image');
-            $table->string('name');
-            $table->string('text');
+            $table->string('key');
+            $table->string('value');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateJuntaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('junta');
+        Schema::dropIfExists('panel');
     }
 }

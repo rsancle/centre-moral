@@ -18,7 +18,9 @@ class CreateSliderTable extends Migration
 
             $table->string('image');
             $table->string('text');
-            $table->string('link');
+            $table->string('link1');
+            $table->string('link2');
+            $table->boolean('reserved')->default(0);
 
             $table->timestamps();
         });

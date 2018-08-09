@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Banner;
-use App\Panel;
+use App\Config;
 use App\Social;
 use App\Clasification;
 use App\Slider;
@@ -19,7 +19,7 @@ class HomeController extends Controller
  		$slider = Slider::all();
 		$post = Post::orderBy('id', 'desc')->paginate(6);
 		$banner = Banner::all();
-		$panel = Panel::all();
+		$panel = Config::all();
 		$social = Social::all();
 
 		return view('welcome')->with('news', $post)->with('clasifications', $clasification)->with('banners', $banner)->with('panel', $panel)->with('socials', $social)->with('sliders', $slider)->with('navbar', $navbar);

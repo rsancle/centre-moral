@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Show;
-use App\Panel;
+use App\Config;
 use App\Social;
 
 class BillboardController extends Controller
@@ -14,7 +14,7 @@ class BillboardController extends Controller
 
 		$show = Show::find($id);
 		$navbar = 0;
-		$panel = Panel::all();
+		$panel = Config::all();
 		$social = Social::all();
 
 		return view('billboard')->with('show', $show)->with('panel', $panel)->with('socials', $social)->with('navbar', $navbar);

@@ -4,7 +4,7 @@
 
         <div class="row">
             <div class="col-sm-2" >
-                <img class="logo_footer" src="{{$panel[0]->logo2}}" alt="Logo">
+                <img class="logo_footer" src="{{$panel[2]->value}}" alt="Logo">
             </div>
             <div class="col-sm-1">
             </div>
@@ -12,9 +12,9 @@
                 <h4><b>El nostre centre</b></h4>
                 <ul>
                     <li><a href="#">Qui som</a></li>
-                    <li><a href="{{route('weare')}}/#place">On som</a></li>
-                    <li><a href="{{route('weare')}}/#Junta">Junta directiva</a></li>
-                    <li><a href="#">El nostre bar</a></li>
+                    <li><a href="{{route('weare')}}/#contacte">On som</a></li>
+                    <li><a href="{{route('weare')}}/#junta">Junta directiva</a></li>
+                    <li><a target="_blank" href="https://www.google.es/search?q=el%20bar%20del%20centre&oq=el+bar+del+centre&aqs=chrome..69i57j0l3j69i64.2356j0j7&sourceid=chrome&ie=UTF-8&safe=strict&npsic=0&rflfq=1&rlha=0&rllag=41399784,2185626,1342&tbm=lcl&rldimm=6389039231324155844&ved=2ahUKEwjqg_20-d3cAhUS3xoKHdKEC7MQvS4wAHoECAEQJg&rldoc=1&tbs=lrf:!2m4!1e17!4m2!17m1!1e2!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9#rlfi=hd:;si:6389039231324155844;mv:!1m3!1d81475.76881327173!2d2.22625865!3d41.4622913!2m3!1f0!2f0!3f0!3m2!1i711!2i327!4f13.1;tbs:lrf:!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2!3sIAE,lf:1,lf_ui:9">El nostre bar</a></li>
                     <li><a href="#">Lloguers de sales</a></li>
                 </ul>
             </div>

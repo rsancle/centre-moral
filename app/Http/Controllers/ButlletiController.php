@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Butlleti;
-use App\Panel;
+use App\Config;
 use App\Social;
 
 class ButlletiController extends Controller
@@ -14,7 +14,7 @@ class ButlletiController extends Controller
 
 		$navbar = 0;
 		$butlleti = Butlleti::all();
-		$panel = Panel::all();
+		$panel = Config::all();
 		$social = Social::all();
 
 		return view('butlleti')->with('butlleti', $butlleti)->with('panel', $panel)->with('navbar', $navbar)->with('socials', $social);;
