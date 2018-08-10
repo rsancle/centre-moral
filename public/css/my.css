@@ -306,7 +306,6 @@ a
 .margin_10
 {
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .middle 
@@ -905,4 +904,13 @@ h1
 .nav-tabs 
 {
     border-bottom: 1px solid white!important;
+}
+
+.nav-tabs .nav-link
+{
+    color: #3c3d41!important;
+    font-family: "FuturaLT";
+    font-size: 13px;
+    text-transform: uppercase;
+
 }

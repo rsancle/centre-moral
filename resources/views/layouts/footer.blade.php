@@ -24,10 +24,9 @@
                 <h4><b>Activitats</b></h4>
                 <ul>
                     <li><a href="{{route('activities')}}">Tallers i activitats</a></li>
-                    <li><a href="#">L'estel de natzaret</a></li>
-                    <li><a href="#">Esbart montseny</a></li>
-                    <li><a href="#">Aula de música</a></li>
-                    <li><a href="#">Cant coral</a></li>
+                    <li><a href="{{route('weare')}}/">L'estel de natzaret</a></li>
+                    <li><a href="{{route('weare')}}/">Esbart montseny</a></li>
+                    <li><a href="{{route('weare')}}/">Cant coral</a></li>
                 </ul>
             </div>
             <div class="col-sm-1">

@@ -33,7 +33,7 @@
             <a class="nav-link" id="junta-tab" data-toggle="tab" href="#junta" role="tab" aria-controls="junta" aria-selected="false">Junta Directiva</a>
           </li>
           <li class="nav-item-weare">
-            <a class="nav-link" id="contacte-tab" data-toggle="tab" href="#contacte" role="tab" aria-controls="contacte" aria-selected="false">Contacte</a>
+            <a class="nav-link" id="contacte-tab" data-toggle="tab" href="#contacte" role="tab" aria-controls="contacte" aria-selected="false">Contacte i on som</a>
           </li>
         </ul>
 

@@ -42,9 +42,9 @@
 
           <div class="carousel-inner">
 
-            @foreach ($sliders as $slider)
+            @foreach ($sliders as $key=>$slider)
 
-              @if ($slider->id == 1)
+              @if ($key == 0)
 
                 <div class="item active">
                   <div class="carousel_img" style="background-image: url('{{$slider->image}}')">
@@ -125,9 +125,9 @@
 
             <div class="header_category">
 
-              @foreach ($clasifications as $clasification)
+              @foreach ($clasifications as $key=>$clasification)
 
-                @if ($clasification->id == 1)
+                @if ($key == 0)
 
                     <a class="active" data-toggle="tab" href="#menu{{$clasification->id}}"><h5>{{$clasification->name}}</h5></a>
                 @else
