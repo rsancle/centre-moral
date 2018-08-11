@@ -3,10 +3,9 @@
 	<head>
     
 	    <meta charset="utf-8">
-	    <link rel="shortcut icon" href="{{$panel[0]->favicon}}">
+	    <link id="favicon" rel="shortcut icon" href="{{$panel[0]->value}}">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link id="favicon" rel="shortcut icon">
 
 	    <!-- Bootstrap -->
 

@@ -158,31 +158,49 @@
 
             @foreach ($clasifications as $clasification)
 
-              @foreach ($clasification->shows as $show)
+              @if ($clasification->id == 1)
 
-                @if ($clasification->id == 1)
+                <div class="tab-pane fade in active" id="menu{{$clasification->id}}">
 
-                  <div class="tab-pane fade in active" id="menu{{$clasification->id}}">
+                  @foreach ($clasification->shows as $show)
 
-                @else
+                    <a href="{{route('billboard')}}/{{$show->id}}">
+                      <div class="col-lg-3">
+                        <div class="container">
+                        <img class="temp_image image" src="{{$show->profile}}" alt="{{$show->title}}">
+                          <div class="middle">
+                            <div class="text"><p>{{$show->title}}</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                  @endforeach 
+
+                </div>
+
+              @else
 
                   <div class="tab-pane fade" id="menu{{$clasification->id}}">
 
-                @endif
+                    @foreach ($clasification->shows as $show)
 
-                    <div class="col-lg-3">
-                      <div class="container">
-                      <img class="temp_image image" src="{{$show->image2}}" alt="{{$show->title}}">
-                        <div class="middle">
-                          <div class="text"><p>{{$show->title}}</p></div>
-                          <a class="button_info" href="{{route('billboard')}}/{{$show->id}}">MÉS INFO</a>
+                      <ahref="{{route('billboard')}}/{{$show->id}}">
+                        <div class="col-lg-3">
+                          <div class="container">
+                          <img class="temp_image image" src="{{$show->profile}}" alt="{{$show->title}}">
+                            <div class="middle">
+                              <div class="text"><p>{{$show->title}}</p></div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  
-                  </div>       
+                      </a>
 
-              @endforeach 
+                    @endforeach 
+
+                  </div>
+
+                @endif
 
             @endforeach      
 
@@ -259,7 +277,7 @@
           <div class="row box_social">
 
             <div class="col-lg-12" style="padding-left:0px;padding-right: 0px;">
-              <div class="fb-page" data-href="https://www.facebook.com/ElCentreCMC" data-tabs="timeline, events" data-small-header="true" data-height="400" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ElCentreCMC" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ElCentreCMC">Facebook</a></blockquote>
+              <div class="fb-page" data-href="https://www.facebook.com/ElCentreCMC" data-tabs="timeline, events" data-small-header="true" data-height="352" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ElCentreCMC" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ElCentreCMC">Facebook</a></blockquote>
               </div>
             </div>
           </div>
@@ -267,16 +285,18 @@
           <div class="row box_social">
 
             <div class="col-lg-12" style="padding-left:0px; padding-right: 0px;">
-              <a class="twitter-timeline" data-height="400" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="352" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
           </div>
 
           <div class="row box_social">
 
-            <div class="col-lg-12" style="padding-left:0px; padding-right: 0px;">
-              <a class="twitter-timeline" data-height="240" href="https://twitter.com/ElCentreCMC?ref_src=twsrc%5Etfw">Tweets by ElCentreCMC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="col-lg-12 " style="padding-left:0px; padding-right: 0px;">
+              <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/BmSykCtlwsZ/embed/captioned/?cr=1&amp;v=9&amp;wp=343&amp;rd=cmc.cat#%7B%22ci%22%3A0%2C%22os%22%3A579.5999999972992%7D" allowtransparency="true" frameborder="0" height="240" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white; max-height:352!important;max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe><script async="" defer="" src="//www.instagram.com/embed.js"></script>
             </div>
+
+
 
           </div>
 
@@ -320,6 +340,9 @@
   js = d.createElement(s); js.id = id;
   js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-       
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+     
 @stop

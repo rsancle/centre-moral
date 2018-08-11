@@ -16,7 +16,7 @@ class HomeController extends Controller
 	{		
 		$clasification = Clasification::with('shows')->get();
  		$navbar = 1;
- 		$slider = Slider::all();
+ 		$slider = Slider::orderBy('priority','asc')->get();
 		$post = Post::orderBy('id', 'desc')->paginate(6);
 		$banner = Banner::all();
 		$panel = Config::all();

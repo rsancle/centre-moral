@@ -436,10 +436,6 @@ a
     background-color: white;
 }
 
-.hola
-{
-
-}
 .img_activity
 {
     height: 140px;
@@ -552,7 +548,7 @@ a.button_activity
 {
     height: 550px;
     background-position: center;
-    background-size: 115%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
 }
@@ -663,20 +659,32 @@ h1
     padding: 0px!important;
 }
 
-.img_show_1
+.none_padding
+{
+    padding: 0px!important;
+}
+
+.img_show_portada
 {
     height: 370px;
     background-position: center;
     background-size: 100%;
 }
 
-.img_show_2
+.img_show_profile
 {
     height: 100%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: white;
+}
+
+.box_profile_show
+{
+    height: 570px;
+    width: 400px;
+    margin: -100px 0 50px 10px;
 }
 
 .img_show_ads
@@ -863,7 +871,6 @@ h1
 .box_social
 {
     margin-bottom: 20px;
-    border:2px solid white;
 }
 
 .carousel-indicators .active 
@@ -913,4 +920,86 @@ h1
     font-size: 13px;
     text-transform: uppercase;
 
+}
+
+.info_billboard
+{
+    overflow: hidden;
+    padding: 27px 54px 30px 15px;
+    background-color: white;
+}
+
+.description_billboard
+{
+    padding: 15px 5px 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.box_category_billboard
+{
+    padding: 5px 5px 13px;
+    line-height: 35px;
+    float: left;
+    width: 50%;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.box_timetable_billboard
+{
+    margin-top: 30px;
+}
+
+.cat_billboard
+{
+
+}
+
+.timetable_portada 
+{
+    position: absolute;
+    bottom: -35px;
+    right: 52px;
+    text-align: center;
+    overflow: hidden;
+    width: 275px;
+    font-size: 14px;
+    font-family: "FuturaLT";
+    height: 79px;
+}
+
+.reserved_portada 
+{
+    position: absolute;
+    bottom: -35px;
+    right: 352px;
+    text-align: center;
+    overflow: hidden;
+    width: 275px;
+    font-size: 14px;
+    font-family: "FuturaLT";
+    height: 79px;
+    background-color: red!important;
+}
+
+.timetable-body
+{
+    background: #e9e8ed;
+}
+
+.timetable
+{
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.nav-tabs {
+    border-bottom: -2px solid white!important;
+}
+
+.nav-tabs>li>a 
+{
+    color: #808080!important;
 }
